@@ -1,0 +1,53 @@
+--Scrum sürecinde ürünü oluşturan parçalar;
+1- Product Backlog
+2- Spring Backlog
+3- Feautre
+4- Epic
+5- User Story
+
+--SCRUM'IN BASİT KURALLARI
+ROLES;
++Product Owner
++Scrum Master
++Team
+
+
+ARTIFACTS;
++Product Backlog
+     -Vision
+     -Priorities
+
++Spring Backlog
+     -Known Work
+     -Capacity
+
++Product Increment
+     -Sum of Completed Work
+     -"Done"
+
++Events
+   Sprint; Scrum içerisindeki tüm aktiviteler bu dönemde gerçekleştirilir.
+
+     +Sprint Planning
+     +Daily Scrum
+     +Split Review
+     +Sprint Retrospective (Retro)
+     +Backlog Refinement (Grooming)-- İhtiyaç duyulursa
+
+
+
+
+
+   --KANBAN
+   Agile yaklaşımı içinde en çok tercih edilen metotlardan birisidir.
+   Esnek ve kullanışlı, Waterfall'da da Scrum'da da uygulanabilir.
+   Scrum+Kanban= Scrumban
+
+   *Ne yapılıyorsa oradan başlanmalı
+   *Değişim kabul edilmeli
+   *Mevcut sürece, rollere ve sorumluluklara saygı gösterilmeli
+   *Her düzeyde liderlik desteklenmeli
+
+   Stories -> To Do -> In Progress -> Test -> Done
+
+

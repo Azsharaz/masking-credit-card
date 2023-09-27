@@ -1,0 +1,114 @@
+1) -- WATERFALL MODEL; *
+Analysis->Design->Implementation->Testing->Maintenance
+ // PROS
+ Kullanımı ve yönetimi kolay
+ Gereksinimleri iyi anlaşılır
+ Küçük projeler için
+ Görevler sabit
+ Kapsamlı dokümanlar
+ - Analiz ve tasarım aşamaları çok detaylı olduğundan kodlama ve test aşamaları çok kısa sürmektedir.
+ - Test aşamasında çıkan hata sayısı azdır.
+
+
+// CONS
+Değişim ve yenilik zor
+Müşteri öngörü ve önerileri önemsenmez
+Proje bitimine kadar çalışan ürün yok ***
+Hata, risk payı yok; esnek değil
+
+
+
+2) -- V MODEL;
+// PROS
+Basit ve kullanımı kolaydır
+Planlama ve test tasarımı kodlamadan önce = zaman kazandırır.
+(Kod yazılmadan önce nasıl test yapılır? RFD'deki gereksinimlere göre --> Doküman üzerinde --> Statik test denir.)
+
+// CONS
+Katı ve kesin kurallara bağlı
+Erken prototip üretilemez
+Herhangi bir aşamada değişiklikler olursa test belgeleri de güncellenmeli
+
+Gereksinimlerin açıkça tanımladığı projeler için kullanılabilir.
+
+
+3) SPIRAL MODEL;
+// PROS
+Risk analizi yapar
+Büyük projeleri tasarlamak ve yönetmek için
+
+// CONS
+Risk analizi yüksek uzmanlık gerektirir.
+Kullanması pahalı
+Küçük projeler için uygun değildir
+
+
+4) PROTOTIP MODEL;
+Prototip yapılır.
+
+
+5) AGILE MODEL; ****
+
+Sadelik esastır.
+Project manager yoktur, product owner vardır.
+Restrospective -> Geriye dönük toplantı
+
+  ->Scrum süreci
+
+     Kompleks yazılımsüreçlerinin yönetilmesi için
+     Bütünden parçaya giderek süreç sürekli tekrarlanır
+     İhtiyaca yönelik ve esnek
+     Rugby yaklaşımı -> Takımın tamamının birlikte ilerleyerek ilerleyip bitirdikten sonra diğer aşamayı tekrar başa sarmaları
+
+  -> Sprint
+     2 ile 4 hafta sürer. Markette en yaygın 2 hafta, maksimum 1 ay
+     Ürün sprint'te tasarlanır, kodlanır ve test edilir
+     Yapılacak işler Product Backlog'da birikir,
+    --> Product Owner'ın belirlediği önceliğe göre işler Sprint Backloguna alınır ve bir sprintte bitirilip ürün demosuna eklenir
+
+    Chicken roller -> Süreçte aktif yer almayanlar: Müşteriler, satıcılar, stakeholderlar(yatırımcılar)
+    Pig roller -> Scrum sürecine dahil olup aktif görev yapan kişiler: Product Owner, Scrum Master, Dev Team
+
+    Product owner -> Doğru şeyi bul
+      Dev Team ve müşteri arasındaki köprü
+      Projenin özelliklerini tanımlar
+      Stakeholder'ı temsil eder
+      Product Backlogu (İş listesi) yönetir, sahibidir
+      Hazırladığı Product Backlog erişilebilir ve anlaşılabilir olmalı
+      Ürünün kaptanıdır
+      Teknik bilgi beklenmez, müşteri beklentilerini iyi anlaması, süreci iyi tasarlaması ve takıma iyi tarif etmesi gerekir.
+      Teknik geçmişe sahip olsa dahi görev ataması yapmaz, görevlere ve işin yapılışına karışamaz; sadece yapılacak işi tasarlar ve anlatır.
+
+    Scrum Master -> İşi hızlı yap
+      Scrum takımın değerlerine, pratiklerine ve kurallarına bağlı kalmasını sağlar
+      Yönetici değildir, takımın verimliliğini ve sürekliliğini sağlar
+
+
+    Dev Team -> İşi doğru yap
+       Front-End Dev, Back-End Dev, Dev-Ops, QA, Business Analyst, UI-UX Designer vb.
+       Bireysel yetenek ve rollerden ziyade çıktı(output), ortaya takımca koyulan iş önemlidir.
+       Kendi kendine organize olur
+       Cross Functional -> Dışarıdan yardıma ihtiyaç duymadan kendi sorumluluklarını bilir ve halleder
+
+       Stakeholder'dan istekler -> Product Owner Product Backlog'u (İş listesi) hazırlar
+                                                         |
+                                              Sprint planlama toplantısı
+                                                         |
+                                    Ana Product Backlog'dan Sprint Backlog oluşturulur
+                                                         |
+                                                  Daily Scrum başlar
+                                   Daily Stand Up Toplantısı ile 24 saatte bir feedback
+                                                         |
+                                 Sprint süreci devam ettirilir (min 2 hafta max 4 hafta)
+                                                         |
+                        Sprint süreci bitince Sprint Review toplantısı ile Demo'yu  gözden geçirme
+                                                         |
+                    Tüm bu sürecin tekrarlanmasıyla biten Sprint sonucunda Retrospective toplantıları ile
+                                          geriye dönük değerlendirmeler yapılır.
+
+
+
+
+
+
+
