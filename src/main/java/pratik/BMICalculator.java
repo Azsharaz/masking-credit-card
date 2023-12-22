@@ -24,17 +24,16 @@ public class BMICalculator {
               bmi = weight / (height * height);
 
 
-            if (bmi < 18.5) {
-                System.out.println("You are skinny");
-            } else if (bmi >= 18.5 && bmi < 20) {
-                System.out.println("Your weight is ideal");
-            } else if (bmi >= 20 && bmi < 25) {
-                System.out.println("Your weight is in a normal range");
-            } else if (bmi >= 25 && bmi < 30) {
-                System.out.println("You are overweight");
-            } else if (bmi >= 30) {
-                System.out.println("You are obese");
-            } else {
+
+            if (bmi<18.5 && bmi>1){
+                       System.out.println("You are weak");
+                   }else if (bmi>18.5 && bmi<20){
+                       System.out.println("Your weight is ideal");
+                   }else if (bmi>25 && bmi<30){
+                       System.out.println("You are fat");
+                   }else if (bmi>=30){
+                       System.out.println("You are obese");
+                   }else {
                 System.out.println("Please enter valid values.");
             }
 
