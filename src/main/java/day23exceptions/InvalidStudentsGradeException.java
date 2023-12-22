@@ -5,6 +5,8 @@ public class InvalidStudentsGradeException extends Exception  {
     public InvalidStudentsGradeException(String message) {
         super(message);
     }
+
+
     /*
     1) Custom Exception Class olusturmak icin Exception Class a extend etmeliyiz
         Exception classa extend ederek olusturdugumuz Custom Exception Class Compile Time Exception olur

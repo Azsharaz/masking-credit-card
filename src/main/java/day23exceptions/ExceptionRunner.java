@@ -18,10 +18,13 @@ public class ExceptionRunner {
 
     }
 
-    public static void getStudentGrade(int grade) {
+    private static void getStudentGrade(int grade) {
+    }
+
+  /*  public static void getStudentGrade(int grade) {
         if (grade < 0 || grade > 100) {
             try {
-                throw new InvalidStudentsGradeException("Studens grades cannot be less than zero or greater than 100");
+                throw new InvalidStudentsGradeException("Students grades cannot be less than zero or greater than 100");
                 //Compiletime error verdiği için try catch yaptık yoksa direkt verecekti
             } catch (InvalidStudentsGradeException e) {
                 System.out.println(e.getMessage());
@@ -32,6 +35,8 @@ public class ExceptionRunner {
         }
 
     }
+
+   */
 
 
     public static void getTheNumberOfStudents(int numOfStudents) {
